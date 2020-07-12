@@ -1,6 +1,6 @@
 # FoodDeliveryApp
-1.This is a demo food delivery app made in kotlin android.
-2.The data in this app is from an open API.
+1. This is a demo food delivery app made in kotlin android
+2. The data in this app is from an open API.
 
 ## Features
 - LogIn and LogOut
