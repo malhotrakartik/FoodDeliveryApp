@@ -2,7 +2,7 @@
 1.This is a demo food delivery app made in kotlin android.
 2.The data in this app is from an open API.
 
-##Features
+## Features
 1.LogIn and LogOut.
 2.Forgot password.
 3.Adding restaurants to faviorites and adding menu items to cart.
