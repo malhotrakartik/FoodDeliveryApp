@@ -2,6 +2,9 @@
 1. This is a demo food delivery app made in kotlin android
 2. The data in this app is from an open API.
 
+## App Demo
+![App Demo](EatTreat.gif)
+
 ## Features
 - LogIn and LogOut
 - Forgot password
