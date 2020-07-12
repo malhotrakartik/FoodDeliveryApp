@@ -1,6 +1,7 @@
 # FoodDeliveryApp
 1. This is a demo food delivery app made in kotlin android
 2. The data used is fetched from an open API using Volley
+3. Database used- SQLite
 
 ## App Demo
 ![App Demo](EatTreat.gif)
