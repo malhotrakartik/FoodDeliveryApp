@@ -1,6 +1,6 @@
 # FoodDeliveryApp
 1. This is a demo food delivery app made in kotlin android
-2. The data in this app is from an open API.
+2. The data used is fetched from an open API using Volley
 
 ## App Demo
 ![App Demo](EatTreat.gif)
