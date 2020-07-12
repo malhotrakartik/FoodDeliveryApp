@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/shape"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/shape"
+
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/imgResImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            android:padding="5dp"/>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.3">
+        <TextView
+            android:id="@+id/txtResName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Name"
+            android:layout_margin="18dp"
+
+            android:padding="3dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/txtResPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtResName"
+            android:text="Rs. 250/person"
+            android:padding="3dp"
+            android:layout_margin="18dp"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+<!--            <ImageView-->
+<!--                android:id="@+id/btnFavouriteIcon"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_rating"-->
+<!--                android:minHeight="60dp"-->
+<!--                android:text="add"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="#ffffff"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--              ></ImageView>-->
+            <Button
+                android:id="@+id/btnFavouriteAddIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:drawableLeft= "@drawable/ic_add_favourites"
+                android:minHeight="60dp"
+                android:text="Add"
+                android:textSize="10sp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/btnFavouriteRemoveIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+
+
+                android:text="Remove"
+                android:textSize="10sp"
+
+                android:visibility="gone"
+                android:layout_marginTop="15dp"
+                android:background="	#FFEFD5"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/txtResRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:background="@android:color/background_light"
+                android:layout_marginLeft="5dp"
+                android:text="4.5"
+
+                android:drawableLeft="@drawable/ic_rating"
+                android:textSize="15sp"
+              />
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

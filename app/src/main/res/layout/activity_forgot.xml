@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    tools:context=".activity.ForgotActivity">
+
+    <ImageView
+        android:id="@+id/imgForgotImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_app_logo"/>
+
+
+    <TextView
+        android:id="@+id/txtOtpHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgForgotImage"
+        android:textSize="15sp"
+        android:text="Enter your registered mobile number and email below"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_profile"
+        android:layout_height="40dp"
+        android:hint="Mobile Number(10 digits)"
+        android:layout_below="@+id/txtOtpHeading"
+        android:layout_marginTop="70dp"
+        android:background="#ffffff"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_profile"
+        android:layout_height="40dp"
+        android:hint="Email Address"
+        android:layout_below="@+id/etNumber"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"/>
+
+
+</RelativeLayout>
